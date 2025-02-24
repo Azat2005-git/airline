@@ -1,0 +1,61 @@
+[ {
+  "name" : "John Doe",
+  "flights" : [ {
+    "aircraftType" : "Airbus A320",
+    "aircraftNumber" : "1234",
+    "departureTime" : [ 2025, 12, 15, 8, 0 ],
+    "arrivalTime" : [ 2025, 12, 15, 10, 0 ],
+    "crew" : [ "John Doe" ],
+    "flightMonth" : "DECEMBER 2025",
+    "flightDurationInHours" : 2
+  }, {
+    "aircraftType" : "Boeing 737",
+    "aircraftNumber" : "5678",
+    "departureTime" : [ 2025, 12, 16, 11, 0 ],
+    "arrivalTime" : [ 2025, 12, 26, 13, 0 ],
+    "crew" : [ "John Doe" ],
+    "flightMonth" : "DECEMBER 2025",
+    "flightDurationInHours" : 242
+  }, {
+    "aircraftType" : "Airbus A320",
+    "aircraftNumber" : "1234",
+    "departureTime" : [ 2025, 11, 15, 8, 0 ],
+    "arrivalTime" : [ 2025, 11, 15, 10, 0 ],
+    "crew" : [ "John Doe" ],
+    "flightMonth" : "NOVEMBER 2025",
+    "flightDurationInHours" : 2
+  }, {
+    "aircraftType" : "Airbus A320",
+    "aircraftNumber" : "1234",
+    "departureTime" : [ 2025, 11, 15, 8, 0 ],
+    "arrivalTime" : [ 2025, 11, 15, 10, 0 ],
+    "crew" : [ "John Doe" ],
+    "flightMonth" : "NOVEMBER 2025",
+    "flightDurationInHours" : 2
+  } ],
+  "flightHoursPerMonth" : {
+    "DECEMBER 2025" : 244.0,
+    "NOVEMBER 2025" : 4.0
+  },
+  "over80HoursFlag" : {
+    "DECEMBER 2025" : true,
+    "NOVEMBER 2025" : false
+  }
+}, {
+  "name" : "Jane Smith",
+  "flights" : [ {
+    "aircraftType" : "Airbus A320",
+    "aircraftNumber" : "1235",
+    "departureTime" : [ 2025, 12, 17, 9, 0 ],
+    "arrivalTime" : [ 2025, 12, 17, 11, 0 ],
+    "crew" : [ "Jane Smith" ],
+    "flightMonth" : "DECEMBER 2025",
+    "flightDurationInHours" : 2
+  } ],
+  "flightHoursPerMonth" : {
+    "DECEMBER 2025" : 2.0
+  },
+  "over80HoursFlag" : {
+    "DECEMBER 2025" : false
+  }
+} ]
